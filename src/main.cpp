@@ -4,6 +4,10 @@
 **/
 //--------------------------------------------------------------------------------------------------
 
+#ifdef __EMSCRIPTEN__
+#include <emscripten.h>
+#endif
+
 #include "App.h"
 
 #include "SDL.h"
